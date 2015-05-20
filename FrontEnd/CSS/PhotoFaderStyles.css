@@ -1,0 +1,165 @@
+﻿body {
+}
+.photo_tag_frame{position:absolute;top:10px;left:10px;border:solid 7px #D8DFEA;cursor:crosshair;overflow:hidden;}
+.editphotos .photo_tag_frame{border:solid 4px #D8DFEA;}
+.photo_tag_frame_inside{display:block;border:solid 2px #3B5998;}
+.photo_tag_name_frame{top:0px;left:0px;text-align:center;position:absolute;}
+.photo_tag_name_frame{background-color:#282828;padding:3px 5px 4px 5px;white-space:nowrap;color:#fff;font-weight:bold;display:block;}
+#tagSelector{top:100px;left:300px;position:absolute;font-size:11px;width:200px;margin-bottom:20px;background:white;border:solid 1px #3B5998;border-bottom:solid 2px #3B5998;}
+#photo_tag_selector .i_name{width:180px;margin:2px 5px 0px;}
+#photo_tag_selector label{display:block;margin:2px 5px 2px;font-weight:bold;color:gray;}
+#photo_tag_selector .buttons{text-align:center;}
+#photo_tag_selector .buttons input{margin:5px 2px;}
+#photo_tag_selector .buttons .tag{width:50px;}
+#photo_tag_selector .buttons .cancel{width:60px;}
+#pts_userlist{line-height:20px;width:200px;height:200px;border-top:solid 1px #ccc;border-bottom:solid 1px #ccc;background:#eee;overflow:auto;}
+#pts_userlist label{display:inline;margin:0px 0px 0px 0px;font-weight:normal;color:#000000;}
+#pts_userlist input{width:auto;}
+#pts_userlist hr{padding:0px;margin:2px 0px;}
+#pts_invite_msg{background-color:#FFFFBB;border:1px solid gray;margin:5px;padding:3px;}
+#pts_invite_section{margin:6px;border:1px solid #c0c0c0;background:#f1f1f1;padding:4px;font-size:11px;}
+#pts_invite_section #pts_invite_name{font-weight:bold;}
+#pts_invite_section .inputtext{width:125px;font-size:11px;}
+#pts_invite_section .inputcheckbox{width:auto;float:left;}
+#pts_invite_section label{width:40px;margin:0px;float:left;padding-top:3px;}
+#pts_choose_text{color:gray;display:block;font-weight:bold;margin:2px 5px;}
+.albuminlist{border-color:Blue;background-color:Gray;border-style:solid;position:relative;top:40px;}
+.albuminlist:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0;}
+
+  /* Default Facebook CSS */
+            .fbbody
+            {
+                font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;
+                font-size: 11px;
+                color: #333333;
+            }
+            /* Default Anchor Style */
+            .fbbody a
+            {
+                color: #3b5998;
+                outline-style: none;
+                text-decoration: none;
+                font-size: 11px;
+                font-weight: bold;
+            }
+            .fbbody a:hover
+            {
+                text-decoration: underline;
+            }
+            /* Facebook Box Styles */
+            .fbgreybox
+            {
+                background-color: #f7f7f7;
+                border: 1px solid #cccccc;
+                color: #333333;
+                padding: 10px;
+                font-size: 13px;
+                font-weight: bold;
+            }
+            .fbbluebox
+            {
+                background-color: #eceff6;
+                border: 1px solid #d4dae8;
+                color: #333333;
+                padding: 10px;
+                font-size: 13px;
+                font-weight: bold;
+            }
+            .fbinfobox
+            {
+                background-color: #fff9d7;
+                border: 1px solid #e2c822;
+                color: #333333;
+                padding: 10px;
+                font-size: 13px;
+                font-weight: bold;
+            }
+            .fberrorbox
+            {
+                background-color: #ffebe8;
+                border: 1px solid #dd3c10;
+                color: #333333;
+                padding: 10px;
+                font-size: 13px;
+                font-weight: bold;
+            }
+            /* Content Divider on White Background */
+            .fbcontentdivider
+            {
+                margin-top: 15px;
+                margin-bottom: 15px;
+                width: 520px;
+                height: 1px;
+                background-color: #d8dfea;
+            }
+            /* Facebook Tab Style */
+            .fbtab
+            {
+                padding: 8px;
+                background-color: #d8dfea;
+                color: #3b5998;
+                font-weight: bold;
+                float: left;
+                margin-right: 4px;
+                text-decoration: none;
+            }
+            .fbtab:hover
+            {
+                background-color: #3b5998;
+                color: #ffffff;
+                cursor: hand;
+            }
+        .fbbutton {border-color: #3b5998; background-color: #3b5998; color: white;} 
+        
+        .faderPhoto
+        {
+        display:inline;
+        }
+        
+        .PhotoInImageGrid
+        {
+            background:white;padding:4px;border:solid 1px #ccc!important;vertical-align:middle;
+        }
+        
+        .PhotoInImageGrid:hover
+        {
+            border:solid 1px #3B5998!important;
+        }
+        
+        .CellInImageGrid
+        {
+            padding:10px 0;vertical-align:middle;width:150px;text-align:center;margin:0px;
+        }
+        
+        .pipe
+        {
+         color:Gray;
+        }
+        
+        #PhotoFaderBody
+        {
+            display:block;
+            float:left;
+            width:804px;
+        }
+        #advert
+        {
+            display:inline;
+            float:right;
+            width:160px;
+        }
+        
+        .pager
+        {
+            padding:3px;
+            float:right;
+            vertical-align:text-top;
+        }
+        
+        .fotoFaderHeader2
+        {
+            font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;
+            font-size: 14px;
+            font-weight:bold;
+            color: #333333;
+        }

@@ -1,0 +1,10 @@
+F:\Documents and Settings\Vinny\My Documents\Visual Studio 2008\Projects\DataServer\DataServer\bin\Debug\DataServer.dll
+F:\Documents and Settings\Vinny\My Documents\Visual Studio 2008\Projects\DataServer\DataServer\bin\Debug\DataServer.pdb
+F:\Documents and Settings\Vinny\My Documents\Visual Studio 2008\Projects\DataServer\DataServer\obj\Debug\ResolveAssemblyReference.cache
+F:\Documents and Settings\Vinny\My Documents\Visual Studio 2008\Projects\DataServer\DataServer\obj\Debug\DataServer.dll
+F:\Documents and Settings\Vinny\My Documents\Visual Studio 2008\Projects\DataServer\DataServer\obj\Debug\DataServer.pdb
+C:\Users\Vincent\Documents\Visual Studio 2008\Projects\DataServer\DataServer\bin\Debug\DataServer.dll
+C:\Users\Vincent\Documents\Visual Studio 2008\Projects\DataServer\DataServer\bin\Debug\DataServer.pdb
+C:\Users\Vincent\Documents\Visual Studio 2008\Projects\DataServer\DataServer\obj\Debug\DataServer.dll
+C:\Users\Vincent\Documents\Visual Studio 2008\Projects\DataServer\DataServer\obj\Debug\DataServer.pdb
+C:\Users\Vincent\Documents\Visual Studio 2008\Projects\DataServer\DataServer\obj\Debug\DataServer.csprojResolveAssemblyReference.cache

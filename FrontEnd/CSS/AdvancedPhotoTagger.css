@@ -1,0 +1,12 @@
+﻿body {
+}
+#pts_userlist
+{
+    width:300px;
+    height:200px;
+    overflow:scroll;
+}
+.lbOn
+{
+    text-align:center;
+}

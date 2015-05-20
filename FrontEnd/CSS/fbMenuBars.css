@@ -1,0 +1,69 @@
+﻿#fb_menubar{background:url(http://www.facebook.com/images/menubar/fb_menubar_background.png) no-repeat left bottom;position:relative;left:0px;top:0px;width:964px;z-index:1;font-size:10px;line-height:normal;}
+#fb_menubar #fb_menubar_logo{float:left;font-size:1.1em;width:105px;}
+#fb_menubar #fb_menubar_logo a{display:block;padding:0.475em 0px 7px 10px;}
+#fb_menubar.fb_menubar_logged_out #fb_menubar_logo a{padding:2.9em 0px 16px 18px;}
+#fb_menubar #fb_menubar_logo a:hover{text-decoration:none;}
+#fb_menubar #fb_menubar_logo a span{background:transparent url(/images/menubar/fb_menubar_logo-ltr.gif) no-repeat 0px 0px;display:block;height:17px;width:90px;}
+#fb_menubar.fb_menubar_logged_out #fb_menubar_logo a span{background-image:url(/images/menubar/fb_menubar_logo_big.gif);height:36px;width:170px;}
+#fb_menubar #fb_menubar_logo a:hover span{background-position:left -17px;}
+#fb_menubar.fb_menubar_logged_out #fb_menubar_logo a:hover span{background-position:top left;}
+.fb_menu_dropdown{background:white;border:1px solid #3b5998;margin:-2px 0px 0px -1px;padding:5px 0px;position:absolute;width:auto;z-index:1;font-size:11px;line-height:normal;}
+.fb_menu_dropdown .fb_menu_item a{border:1px solid white;border-width:1px 0px;display:block;padding:3px 35px 3px 19px;font-size:11px;line-height:normal;}
+.fb_menu_dropdown .fb_menu_item a:hover{display:block;background-color:#6d84b4;border-top-color:#617aad;border-bottom-color:#3b5998;color:white;text-decoration:none;font-size:11px;line-height:normal;}
+.fb_menu_dropdown .fb_menu_item small{background-position:-16px 0px;background-repeat:no-repeat;float:left;font-size:11px;height:16px;margin:-1px 6px 0px 0px;width:16px;}
+.fb_menu_dropdown .fb_menu_item a:hover small{background-position:left top;}
+.fb_menu_dropdown .fb_menu_item_disabled span{color:#808080;cursor:default;display:block;padding:4px 35px 4px 20px;}
+.fb_menu_dropdown .fb_menu_separator{margin:6px 4px 5px 4px;border-bottom:1px solid #e0e0e0;}
+#fb_menubar_core{float:left;font-size:1.1em;padding:4px 0px 5px 0px;padding:0px;}
+#fb_menubar_core .fb_menu{float:left;margin:0px 4px 0px 0px;}
+#fb_menubar_core .fb_menu .fb_menu_title a{color:white;display:block;font-weight:bold;padding:3px 7px 4px 8px;padding:7px 7px 7px 8px;}
+#fb_menubar_aux .fb_menu .fb_menu_title .fb_menu_dropdown_title,
+#fb_menubar_core .fb_menu .fb_menu_title .fb_menu_dropdown_title{background-image:url('/images/menubar_chevron.gif');background-repeat:no-repeat;background-position:right 13px;padding-right:17px;}
+#fb_menubar_core .fb_menu .fb_menu_title .hover,
+#fb_menubar_core .fb_menu .fb_menu_title a:hover{background-color:#5c75aa;text-decoration:none;}
+#fb_menubar_core .fb_menu_count_holder span{background-image:url(/images/menubar/fb_menubar_inbox_unread_count_ltr.gif);}
+#fb_menubar_core .fb_menu_count_holder{background-image:url(/images/menubar/fb_menubar_inbox_unread_count_hover_ltr.gif);margin-left:5px;}
+#fb_menubar_core .hover .fb_menu_count_holder span,
+#fb_menubar_core a:hover .fb_menu_count_holder span{background-image:url(/images/menubar/fb_menubar_inbox_unread_count_hover_ltr.gif);}
+#fb_menubar_core .fb_menu_count_holder .tl{background-position:left top;}
+#fb_menubar_core .fb_menu_count_holder .tr{background-position:right top;}
+#fb_menubar_core .fb_menu_count_holder .br{background-position:right bottom;padding-bottom:1px;}
+#fb_menubar_core .fb_menu_count_holder .bl{background-position:left bottom;padding:0px 6px 1px;}
+#fb_menu_inbox_dropdown .nav_inbox_message_unread{background:url(/images/menubar/fb_menubar_blue_bullet.gif) no-repeat 7px 7px;}
+#fb_menu_inbox_dropdown .nav_inbox_message_unread .nav_inbox_message_author{font-weight:bold;}
+#fb_menu_inbox_dropdown .nav_inbox_message_content{color:#8d9ccf;font-weight:normal;margin-left:5px;}
+#fb_menu_inbox_dropdown .nav_inbox_message_unread a:hover{background-image:url(/images/menubar/fb_menubar_white_bullet.gif);background-position:7px 6px;background-repeat:no-repeat;}
+#fb_menu_inbox_dropdown a:hover .nav_inbox_message_content,
+#fb_menu_inbox_dropdown a.hover .nav_inbox_message_content{color:white;}
+#fb_menubar_aux{float:right;font-size:1.1em;}
+#fb_menubar.fb_menubar_logged_out #fb_menubar_aux{float:none;}
+#fb_menubar_aux .fb_menu{float:left;margin:0px 5px 0px 0px;}
+#fb_menubar_aux .fb_menu .fb_menu_title a{color:#fff;display:block;overflow:hidden;padding:0px 5px;}
+#fb_menubar_aux .fb_menu .fb_menu_title .hover,
+#fb_menubar_aux .fb_menu .fb_menu_title a:hover{background-color:#5c75aa;text-decoration:none;}
+#fb_menubar_aux .fb_menu .fb_menu_title a .menu_title{float:left;padding:4px 0px;padding:7px 0px;}
+#fb_menubar_aux .fb_menu .fb_menu_title .hover .menu_icon,
+#fb_menubar_aux .fb_menu .fb_menu_title a:hover .menu_icon{background-position:100% 0%;}
+#fb_menubar_aux .fb_menu .fb_menu_title a .profile_pic{float:left;padding:2px 5px 0px 0px;padding:5px 5px 0px 0px;}
+#fb_menubar_aux .fb_menu .fb_menu_title a .profile_pic img{border:1px solid #315091;border-bottom-color:#365494;}
+#fb_menubar_aux .fb_menu .fb_menu_title .hover .profile_pic img,
+#fb_menubar_aux .fb_menu .fb_menu_title a:hover .profile_pic img{border:1px solid #8b9dc3;}
+.clearfix:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0;} .clearfix{display:inline-block;} html[xmlns] .clearfix{display:block;} * html .clearfix{height:1%;}
+.hidden_elem{display:none;}
+#dropmenu_container{width:964px;height:0px;line-height:0px;font-size:1px;display:block;padding:0px;margin:0px auto;position:relative;z-index:100;}
+#dropmenu_container .dropdown_menu{font-size:11px;line-height:normal;}
+#dropmenu_container div{font-size:11px;line-height:normal; background-color:#3b5998;}
+.text_exposed_show,
+.text_exposed .text_exposed_show{display:inline;}
+.text_exposed_show,
+.text_exposed .text_exposed_hide{display:none;}
+.text_exposed_link{background:url(/images/add_content_inline.gif) no-repeat right 1px;font-size:9px;font-weight:bold;padding:0 12px 0 0;white-space:nowrap;}
+
+
+/*Not sure about these dropdowns - haven't achieved a noticeable difference when added*/
+/*.dropdown_menu{position:absolute;right:0px;width:150px;z-index:10;margin-top:-1px;}
+.dropdown_menu .menu_content{border:solid 1px #6076A5;background:white;}
+.dropdown_menu a{display:block;padding:3px 10px;}
+.dropdown_menu span.optgroup{color:#808080;cursor:default;display:block;padding:8px 10px 4px 10px;}
+.dropdown_menu a:hover{background:#5C75AA;color:white;text-decoration:none;}*/
+/*End of not sure*/

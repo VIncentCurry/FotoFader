@@ -1,0 +1,2264 @@
+<ApplicationLog>
+  <LogEntry ApplicationName="Points" Severity="StatusError" Date="09/05/2009 12:29:48">
+    <Exception>
+      <Source>App_Web_ccxnlh9r</Source>
+      <Message>Attempted to divide by zero.</Message>
+      <StackTrace>   at Albums.btnThrowError_Click(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 78
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="Points" Severity="StatusError" Date="09/05/2009 12:31:02">
+    <Exception>
+      <Source>App_Web_vhhu2ylx</Source>
+      <Message>Attempted to divide by zero.</Message>
+      <StackTrace>   at Albums.btnThrowError_Click(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 78
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-4-128863438743463101" Severity="StatusError" Date="09/05/2009 12:58:28">
+    <Exception>
+      <Source>App_Web_tfuz8k9e</Source>
+      <Message>Attempted to divide by zero.</Message>
+      <StackTrace>   at Albums.btnThrowError_Click(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 78
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-5-128863457359013101" Severity="StatusError" Date="09/05/2009 13:29:30">
+    <Exception>
+      <Source>App_Web_tfuz8k9e</Source>
+      <Message>Attempted to divide by zero.</Message>
+      <StackTrace>   at Albums.btnThrowError_Click(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 78
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-5-128863457359013101" Severity="StatusError" Date="09/05/2009 13:52:36">
+    <Exception>
+      <Source>facebook</Source>
+      <Message>Session key invalid or no longer valid</Message>
+      <StackTrace>   at facebook.API.SendRequest(IDictionary`2 parameterDictionary, Boolean useSession)
+   at facebook.fql.query(String query)
+   at PhotoTaggerOM.FacebookAlbum.PopulateObjects(String whereClause) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 152
+   at PhotoTaggerOM.FacebookAlbum.LoggedInUsersAlbums() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 136
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 26
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128865364269484993" Severity="StatusError" Date="11/05/2009 19:43:53">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 124
+   at PhotoTaggerOM.FacebookAlbum.get_CoverPhoto() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 96
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 41
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128865364269484993" Severity="StatusError" Date="11/05/2009 19:44:01">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 124
+   at PhotoTaggerOM.FacebookAlbum.get_CoverPhoto() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 96
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 41
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128865364269484993" Severity="StatusError" Date="11/05/2009 19:44:08">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 124
+   at PhotoTaggerOM.FacebookAlbum.get_CoverPhoto() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 96
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 41
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128865364269484993" Severity="StatusError" Date="11/05/2009 19:44:17">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 124
+   at PhotoTaggerOM.FacebookAlbum.get_CoverPhoto() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 96
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 41
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128865364269484993" Severity="StatusError" Date="11/05/2009 19:44:25">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 124
+   at PhotoTaggerOM.FacebookAlbum.get_CoverPhoto() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 96
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 41
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128865364269484993" Severity="StatusError" Date="11/05/2009 19:44:32">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 124
+   at PhotoTaggerOM.FacebookAlbum.get_CoverPhoto() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 96
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 41
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128865364269484993" Severity="StatusError" Date="11/05/2009 19:44:43">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 124
+   at PhotoTaggerOM.FacebookAlbum.get_CoverPhoto() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 96
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 41
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-3-128865420114794993" Severity="StatusError" Date="11/05/2009 21:11:50">
+    <Exception>
+      <Source>facebook</Source>
+      <Message>Session key invalid or no longer valid</Message>
+      <StackTrace>   at facebook.API.SendRequest(IDictionary`2 parameterDictionary, Boolean useSession)
+   at facebook.fql.query(String query)
+   at PhotoTaggerOM.FacebookPhoto.PopulateObjects(String whereClause) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 160
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 124
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 31
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-3-128865420114794993" Severity="StatusError" Date="11/05/2009 22:36:24">
+    <Exception>
+      <Source>facebook</Source>
+      <Message>Session key invalid or no longer valid</Message>
+      <StackTrace>   at facebook.API.SendRequest(IDictionary`2 parameterDictionary, Boolean useSession)
+   at facebook.fql.query(String query)
+   at PhotoTaggerOM.FacebookAlbum.PopulateObjects(String whereClause) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 155
+   at PhotoTaggerOM.FacebookAlbum.AlbumByID(Int64 albumID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 132
+   at AlbumPage.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\AlbumPage.aspx.cs:line 22
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-3-128865420114794993" Severity="StatusError" Date="11/05/2009 22:46:20">
+    <Exception>
+      <Source>facebook</Source>
+      <Message>Session key invalid or no longer valid</Message>
+      <StackTrace>   at facebook.API.SendRequest(IDictionary`2 parameterDictionary, Boolean useSession)
+   at facebook.fql.query(String query)
+   at PhotoTaggerOM.FacebookAlbum.PopulateObjects(String whereClause) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 155
+   at PhotoTaggerOM.FacebookAlbum.LoggedInUsersAlbums() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 139
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 26
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128866272496920000" Severity="StatusError" Date="12/05/2009 21:23:52">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 124
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 32
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-3-128866360773170000" Severity="StatusError" Date="12/05/2009 22:09:19">
+    <Exception>
+      <Source>App_Code.yisthwlx</Source>
+      <Message>Session key invalid or no longer valid</Message>
+      <StackTrace>   at General.RedirectSessionInvalidExceptions(FacebookException facebookException) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\App_Code\General.cs:line 58
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 83
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128896630338513927" Severity="StatusError" Date="16/06/2009 23:09:33">
+    <Exception>
+      <Source>System</Source>
+      <Message>The server committed a protocol violation. Section=ResponseHeader Detail=CR must be followed by LF</Message>
+      <StackTrace>   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest&amp; request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at System.Net.WebClient.DownloadData(String address)
+   at PhotoTaggerOM.PhotoTag.CreateBackgroundImage() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTag.cs:line 77
+   at PhotoTaggerOM.PhotoTag..ctor(Int64 facebookTagUserID, String tag, Int64 facebookPhotoID, String polygonCoordinates) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTag.cs:line 54
+   at PhotoFaderTagger.chkBoxFriends_SelectedIndexChanged(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 160
+   at System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   at System.Web.UI.WebControls.CheckBoxList.RaisePostDataChangedEvent()
+   at System.Web.UI.WebControls.CheckBoxList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-3-128925566200723161" Severity="StatusError" Date="20/07/2009 10:49:04">
+    <Exception>
+      <Source>facebook</Source>
+      <Message>One or more of your image records failed to include a valid 'href' field.</Message>
+      <StackTrace>   at facebook.API.SendRequest(IDictionary`2 parameterDictionary, Boolean useSession)
+   at facebook.API.SendRequest(IDictionary`2 parameterDictionary)
+   at facebook.feed.publishUserAction(Int64 template_bundle_id, Dictionary`2 template_data, List`1 target_ids, String body_general, PublishedStorySize story_size)
+   at PhotoTaggerOM.StoryPublisher.Publish() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\StoryPublisher.cs:line 59
+   at PhotoTaggerOM.FacebookPhoto.PublishTaggingDetails() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 103
+   at PhotoFaderTagger.btnDoneTagging_Click(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 230
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128925977976977886" Severity="StatusError" Date="20/07/2009 22:13:46">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>An item with the same key has already been added.</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at PhotoTaggerOM.StoryPublisher.Publish() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\StoryPublisher.cs:line 54
+   at PhotoTaggerOM.FacebookPhoto.PublishTaggingDetails() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 103
+   at PhotoFaderTagger.btnDoneTagging_Click(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 230
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128925977976977886" Severity="StatusError" Date="20/07/2009 22:17:13">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>An item with the same key has already been added.</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at PhotoTaggerOM.StoryPublisher.Publish() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\StoryPublisher.cs:line 54
+   at PhotoTaggerOM.FacebookPhoto.PublishTaggingDetails() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 103
+   at PhotoFaderTagger.btnDoneTagging_Click(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 230
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128926441271499007" Severity="StatusError" Date="21/07/2009 11:08:50">
+    <Exception>
+      <Source>PhotoTaggerOM</Source>
+      <Message>Object reference not set to an instance of an object.</Message>
+      <StackTrace>   at PhotoTaggerOM.StoryPublisher.AddPhotoID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\StoryPublisher.cs:line 25
+   at PhotoTaggerOM.PhotoTag..ctor(Int64 facebookTagUserID, String tag, Int64 facebookPhotoID, String polygonCoordinates) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTag.cs:line 63
+   at PhotoFaderTagger.chkBoxFriends_SelectedIndexChanged(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 160
+   at System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   at System.Web.UI.WebControls.CheckBoxList.RaisePostDataChangedEvent()
+   at System.Web.UI.WebControls.CheckBoxList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128931776494891104" Severity="StatusError" Date="27/07/2009 15:24:37">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>String was not recognized as a valid Boolean.</Message>
+      <StackTrace>   at System.Boolean.Parse(String value)
+   at System.Convert.ToBoolean(String value)
+   at PhotoTaggerOM.General.UserHasGrantedPublishPermission() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\General.cs:line 55
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 22
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-3-128931879518881104" Severity="StatusError" Date="27/07/2009 18:07:00">
+    <Exception>
+      <Source>System.Data</Source>
+      <Message>Invalid attempt to read when no data is present.</Message>
+      <StackTrace>   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at PhotoTaggerOM.FacebookUser.get_AskedPublishPermission() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 56
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-3-128931879518881104" Severity="StatusError" Date="27/07/2009 18:07:04">
+    <Exception>
+      <Source>System.Data</Source>
+      <Message>Invalid attempt to read when no data is present.</Message>
+      <StackTrace>   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at PhotoTaggerOM.FacebookUser.get_AskedPublishPermission() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 56
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-3-128931879518881104" Severity="StatusError" Date="27/07/2009 18:07:07">
+    <Exception>
+      <Source>System.Data</Source>
+      <Message>Invalid attempt to read when no data is present.</Message>
+      <StackTrace>   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at PhotoTaggerOM.FacebookUser.get_AskedPublishPermission() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 56
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-3-128931879518881104" Severity="StatusError" Date="27/07/2009 18:07:11">
+    <Exception>
+      <Source>System.Data</Source>
+      <Message>Invalid attempt to read when no data is present.</Message>
+      <StackTrace>   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at PhotoTaggerOM.FacebookUser.get_AskedPublishPermission() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 56
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-3-128931879518881104" Severity="StatusError" Date="27/07/2009 18:07:14">
+    <Exception>
+      <Source>System.Data</Source>
+      <Message>Invalid attempt to read when no data is present.</Message>
+      <StackTrace>   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at PhotoTaggerOM.FacebookUser.get_AskedPublishPermission() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 56
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-3-128931879518881104" Severity="StatusError" Date="27/07/2009 18:07:17">
+    <Exception>
+      <Source>System.Data</Source>
+      <Message>Invalid attempt to read when no data is present.</Message>
+      <StackTrace>   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at PhotoTaggerOM.FacebookUser.get_AskedPublishPermission() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 56
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-3-128931879518881104" Severity="StatusError" Date="27/07/2009 18:07:21">
+    <Exception>
+      <Source>System.Data</Source>
+      <Message>Invalid attempt to read when no data is present.</Message>
+      <StackTrace>   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at PhotoTaggerOM.FacebookUser.get_AskedPublishPermission() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 56
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-5-128931941231521104" Severity="StatusError" Date="27/07/2009 19:50:05">
+    <Exception>
+      <Source>.Net SqlClient Data Provider</Source>
+      <Message>Procedure or function 'apsp_GetUsersApplicationData' expects parameter '@UserID', which was not supplied.</Message>
+      <StackTrace>   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at DataServer.SQLDataServer.ExecuteSPReturnDataReader(String storedProcedure, String connectionString, List`1 parameters) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\DataServer\DataServer\SQLDataServer.cs:line 137
+   at PhotoTaggerOM.FacebookUser.get_AskedPublishPermission() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 52
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-11-128932715836842961" Severity="StatusError" Date="28/07/2009 18:29:14">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 129
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 32
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-11-128932715836842961" Severity="StatusError" Date="28/07/2009 18:31:01">
+    <Exception>
+      <Source>PhotoTaggerOM</Source>
+      <Message>Object reference not set to an instance of an object.</Message>
+      <StackTrace>   at PhotoTaggerOM.StoryPublisher.AddPhotoID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\StoryPublisher.cs:line 31
+   at PhotoTaggerOM.PhotoTag..ctor(Int64 facebookTagUserID, String tag, Int64 facebookPhotoID, String polygonCoordinates) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTag.cs:line 63
+   at PhotoFaderTagger.chkBoxFriends_SelectedIndexChanged(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 169
+   at System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   at System.Web.UI.WebControls.CheckBoxList.RaisePostDataChangedEvent()
+   at System.Web.UI.WebControls.CheckBoxList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-11-128932715836842961" Severity="StatusError" Date="28/07/2009 18:41:00">
+    <Exception>
+      <Source>PhotoTaggerOM</Source>
+      <Message>Object reference not set to an instance of an object.</Message>
+      <StackTrace>   at PhotoTaggerOM.StoryPublisher.AddPhotoID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\StoryPublisher.cs:line 31
+   at PhotoTaggerOM.PhotoTag..ctor(Int64 facebookTagUserID, String tag, Int64 facebookPhotoID, String polygonCoordinates) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTag.cs:line 63
+   at PhotoFaderTagger.chkBoxFriends_SelectedIndexChanged(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 169
+   at System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   at System.Web.UI.WebControls.CheckBoxList.RaisePostDataChangedEvent()
+   at System.Web.UI.WebControls.CheckBoxList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-4-128934398459597976" Severity="StatusError" Date="30/07/2009 16:05:44">
+    <Exception>
+      <Source>PhotoTaggerOM</Source>
+      <Message>Object reference not set to an instance of an object.</Message>
+      <StackTrace>   at PhotoTaggerOM.FacebookUser.LoggedInUser() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 118
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 22
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-5-128934400322027976" Severity="StatusError" Date="30/07/2009 16:07:41">
+    <Exception>
+      <Source>PhotoTaggerOM</Source>
+      <Message>Object reference not set to an instance of an object.</Message>
+      <StackTrace>   at PhotoTaggerOM.FacebookUser.LoggedInUser() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 118
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 22
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-7-128934402252767976" Severity="StatusError" Date="30/07/2009 16:11:51">
+    <Exception>
+      <Source>PhotoTaggerOM</Source>
+      <Message>Object reference not set to an instance of an object.</Message>
+      <StackTrace>   at PhotoTaggerOM.FacebookUser.PopulateObjects(String whereClause) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 153
+   at PhotoTaggerOM.FacebookUser.LoggedInUser() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 118
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 22
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-7-128934402252767976" Severity="StatusError" Date="30/07/2009 16:48:37">
+    <Exception>
+      <Source>PhotoTaggerOM</Source>
+      <Message>Object reference not set to an instance of an object.</Message>
+      <StackTrace>   at PhotoTaggerOM.FacebookUser.PopulateObjects(String whereClause) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 153
+   at PhotoTaggerOM.FacebookUser.LoggedInUser() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 118
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 22
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-8-128934428411057976" Severity="StatusError" Date="30/07/2009 16:55:23">
+    <Exception>
+      <Source>PhotoTaggerOM</Source>
+      <Message>Object reference not set to an instance of an object.</Message>
+      <StackTrace>   at PhotoTaggerOM.FacebookUser.PopulateObjects(String whereClause) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 153
+   at PhotoTaggerOM.FacebookUser.LoggedInUser() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 118
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 22
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128935019975106794" Severity="StatusError" Date="31/07/2009 09:21:15">
+    <Exception>
+      <Source>Facebook</Source>
+      <Message>Object reference not set to an instance of an object.</Message>
+      <StackTrace>   at Facebook.Web.FacebookHttpSession.get_SessionCacheKey() in D:\Source\Facebook\trunk\Facebook\Web\FacebookHttpSession.cs:line 34
+   at Facebook.Web.FacebookHttpSession.get_Current() in D:\Source\Facebook\trunk\Facebook\Web\FacebookHttpSession.cs:line 40
+   at Facebook.Web.FacebookHttpContext.InitContext() in D:\Source\Facebook\trunk\Facebook\Web\FacebookHttpContext.api.cs:line 28
+   at Facebook.Web.FacebookHttpContext.get_Current() in D:\Source\Facebook\trunk\Facebook\Web\FacebookHttpContext.api.cs:line 54
+   at PhotoTaggerOM.FacebookUser.LoggedInUser() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 119
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 22
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-2-128935088430556794" Severity="StatusError" Date="31/07/2009 11:14:45">
+    <Exception>
+      <Source>Facebook</Source>
+      <Message>Object reference not set to an instance of an object.</Message>
+      <StackTrace>   at Facebook.Web.FacebookHttpSession.get_SessionCacheKey() in D:\Source\Facebook\trunk\Facebook\Web\FacebookHttpSession.cs:line 34
+   at Facebook.Web.FacebookHttpSession.get_Current() in D:\Source\Facebook\trunk\Facebook\Web\FacebookHttpSession.cs:line 40
+   at Facebook.Web.FacebookHttpContext.InitContext() in D:\Source\Facebook\trunk\Facebook\Web\FacebookHttpContext.api.cs:line 28
+   at Facebook.Web.FacebookHttpContext.get_Current() in D:\Source\Facebook\trunk\Facebook\Web\FacebookHttpContext.api.cs:line 54
+   at PhotoTaggerOM.PhotoTaggerContext.get_FacebookHttpContext() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTaggerContext.cs:line 16
+   at PhotoTaggerOM.FacebookUser.LoggedInUser() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 119
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 22
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-3-128935091218786794" Severity="StatusError" Date="31/07/2009 11:19:12">
+    <Exception>
+      <Source>Facebook</Source>
+      <Message>Object reference not set to an instance of an object.</Message>
+      <StackTrace>   at Facebook.Web.FacebookHttpSession.get_SessionCacheKey() in D:\Source\Facebook\trunk\Facebook\Web\FacebookHttpSession.cs:line 34
+   at Facebook.Web.FacebookHttpSession.get_Current() in D:\Source\Facebook\trunk\Facebook\Web\FacebookHttpSession.cs:line 40
+   at Facebook.Web.FacebookHttpContext.InitContext() in D:\Source\Facebook\trunk\Facebook\Web\FacebookHttpContext.api.cs:line 28
+   at Facebook.Web.FacebookHttpContext.get_Current() in D:\Source\Facebook\trunk\Facebook\Web\FacebookHttpContext.api.cs:line 54
+   at PhotoTaggerOM.PhotoTaggerContext.get_FacebookContext() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTaggerContext.cs:line 16
+   at PhotoTaggerOM.FacebookUser.LoggedInUser() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 119
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 22
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-4-128935092828886794" Severity="StatusError" Date="31/07/2009 11:22:05">
+    <Exception>
+      <Source>Facebook</Source>
+      <Message>Object reference not set to an instance of an object.</Message>
+      <StackTrace>   at Facebook.Web.FacebookHttpSession.get_SessionCacheKey() in D:\Source\Facebook\trunk\Facebook\Web\FacebookHttpSession.cs:line 34
+   at Facebook.Web.FacebookHttpSession.get_Current() in D:\Source\Facebook\trunk\Facebook\Web\FacebookHttpSession.cs:line 40
+   at Facebook.Web.FacebookHttpContext.InitContext() in D:\Source\Facebook\trunk\Facebook\Web\FacebookHttpContext.api.cs:line 28
+   at Facebook.Web.FacebookHttpContext.get_Current() in D:\Source\Facebook\trunk\Facebook\Web\FacebookHttpContext.api.cs:line 54
+   at PhotoTaggerOM.PhotoTaggerContext.get_FacebookContext() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTaggerContext.cs:line 16
+   at PhotoTaggerOM.FacebookUser.LoggedInUser() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 119
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 22
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128938786325719137" Severity="StatusError" Date="04/08/2009 18:45:49">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 32
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128938786325719137" Severity="StatusError" Date="04/08/2009 18:46:05">
+    <Exception>
+      <Source>App_Code.sg9m4_8f</Source>
+      <Message>Invalid parameter</Message>
+      <StackTrace>   at General.RedirectSessionInvalidExceptions(FacebookException facebookException) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\App_Code\General.cs:line 65
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 106
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128938786325719137" Severity="StatusError" Date="04/08/2009 18:58:05">
+    <Exception>
+      <Source>App_Code.sg9m4_8f</Source>
+      <Message>Invalid parameter</Message>
+      <StackTrace>   at General.RedirectSessionInvalidExceptions(FacebookException facebookException) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\App_Code\General.cs:line 65
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 106
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128938786325719137" Severity="StatusError" Date="04/08/2009 18:59:06">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Exception has been thrown by the target of an invocation.</Message>
+      <StackTrace>   at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct&amp; sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Web.UI.WebControls.ObjectDataSourceView.InvokeMethod(ObjectDataSourceMethod method, Boolean disposeInstance, Object&amp; instance)
+   at System.Web.UI.WebControls.ObjectDataSourceView.ExecuteSelect(DataSourceSelectArguments arguments)
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.BaseDataBoundControl.EnsureDataBound()
+   at System.Web.UI.WebControls.BaseDataBoundControl.OnPreRender(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.OnPreRender(EventArgs e)
+   at System.Web.UI.WebControls.CheckBoxList.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+      <InnerException>
+        <Source>PhotoTaggerOM</Source>
+        <Message>Unable to cast object of type 'Microsoft.Xml.Schema.Linq.XSimpleList`1[System.Int64]' to type 'System.Collections.Generic.List`1[System.Int64]'.</Message>
+        <StackTrace>   at PhotoTaggerOM.FacebookUser.LoggedInUsersFriendsAsIDsList() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 127
+   at PhotoTaggerOM.FacebookUser.LoggedInUsersFriends() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 109</StackTrace>
+      </InnerException>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-2-128938825712049137" Severity="StatusError" Date="04/08/2009 19:09:07">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 32
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-4-128938867988679137" Severity="StatusError" Date="04/08/2009 20:13:35">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 32
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128939514702951639" Severity="StatusError" Date="05/08/2009 14:11:32">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 32
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128939608758239142" Severity="StatusError" Date="05/08/2009 16:53:22">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 32
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128944647018136129" Severity="StatusError" Date="11/08/2009 12:45:27">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 32
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128947599057617155" Severity="StatusError" Date="14/08/2009 22:53:42">
+    <Exception>
+      <Source>facebook</Source>
+      <Message>Parser error: unexpected ',' at position 58.</Message>
+      <StackTrace>   at facebook.API.SendRequest(IDictionary`2 parameterDictionary, Boolean useSession)
+   at facebook.fql.query(String query)
+   at PhotoTaggerOM.FacebookUser.PopulateObjects(String whereClause) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 149
+   at PhotoTaggerOM.FacebookUser.UsersByIDs(String ids) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 119
+   at PhotoFaderTagger.btnDoneTagging_Click(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 255
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128947599057617155" Severity="StatusError" Date="14/08/2009 22:55:02">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 32
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128980030378184988" Severity="StatusError" Date="21/09/2009 11:37:47">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 32
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-6-128982210804640000" Severity="StatusError" Date="24/09/2009 00:13:09">
+    <Exception>
+      <Source>System</Source>
+      <Message>The operation has timed out</Message>
+      <StackTrace>   at System.Net.HttpWebRequest.GetRequestStream()
+   at facebook.API.postRequest(String requestUrl, String postString)
+   at facebook.API.SendRequest(IDictionary`2 parameterDictionary, Boolean useSession)
+   at facebook.API.SendRequest(IDictionary`2 parameterDictionary)
+   at facebook.auth.getSession(String auth_token)
+   at facebook.API.CreateSession()
+   at facebook.API.CreateSession(String authToken)
+   at facebook.Components.FacebookService.CreateSession(String authToken)
+   at PhotoTaggerOM.PhotoTaggerFBService.get_PhotoTagFaceBookService() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTaggerFBService.cs:line 39
+   at PhotoTaggerOM.FacebookUser.LoggedInUser() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 124
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 22
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-6-128982210804640000" Severity="StatusError" Date="24/09/2009 00:20:56">
+    <Exception>
+      <Source>System</Source>
+      <Message>The operation has timed out</Message>
+      <StackTrace>   at System.Net.HttpWebRequest.GetRequestStream()
+   at facebook.API.postRequest(String requestUrl, String postString)
+   at facebook.API.SendRequest(IDictionary`2 parameterDictionary, Boolean useSession)
+   at facebook.API.SendRequest(IDictionary`2 parameterDictionary)
+   at facebook.auth.getSession(String auth_token)
+   at facebook.API.CreateSession()
+   at facebook.API.CreateSession(String authToken)
+   at facebook.Components.FacebookService.CreateSession(String authToken)
+   at PhotoTaggerOM.PhotoTaggerFBService.get_PhotoTagFaceBookService() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTaggerFBService.cs:line 39
+   at PhotoTaggerOM.FacebookUser.LoggedInUser() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 124
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 22
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-7-128982218084470000" Severity="StatusError" Date="24/09/2009 00:23:34">
+    <Exception>
+      <Source>App_Code.pkxzcp_4</Source>
+      <Message>Invalid parameter</Message>
+      <StackTrace>   at General.RedirectSessionInvalidExceptions(FacebookException facebookException) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\App_Code\General.cs:line 65
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 106
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-7-128982218084470000" Severity="StatusError" Date="24/09/2009 00:23:43">
+    <Exception>
+      <Source>App_Code.pkxzcp_4</Source>
+      <Message>Invalid parameter</Message>
+      <StackTrace>   at General.RedirectSessionInvalidExceptions(FacebookException facebookException) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\App_Code\General.cs:line 65
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 106
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128982609805797830" Severity="StatusError" Date="24/09/2009 15:30:47">
+    <Exception>
+      <Source>App_Web_rwrmzpkd</Source>
+      <Message>Object reference not set to an instance of an object.</Message>
+      <StackTrace>   at PhotoFaderTagger.btnDoneTagging_Click(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 243
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-2-128982766904937830" Severity="StatusError" Date="24/09/2009 16:38:52">
+    <Exception>
+      <Source>App_Code.pkxzcp_4</Source>
+      <Message>Invalid parameter</Message>
+      <StackTrace>   at General.RedirectSessionInvalidExceptions(FacebookException facebookException) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\App_Code\General.cs:line 65
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 106
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128983448992759032" Severity="StatusError" Date="25/09/2009 16:59:13">
+    <Exception>
+      <Source>App_Web_2esgmwfx</Source>
+      <Message>Object reference not set to an instance of an object.</Message>
+      <StackTrace>   at PhotoFaderTagger.btnDoneTagging_Click(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 243
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128987308648557976" Severity="StatusError" Date="29/09/2009 21:52:58">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 32
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128988195438153000" Severity="StatusError" Date="30/09/2009 22:26:57">
+    <Exception>
+      <Source>App_Code.pkxzcp_4</Source>
+      <Message>Invalid parameter</Message>
+      <StackTrace>   at General.RedirectSessionInvalidExceptions(FacebookException facebookException) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\App_Code\General.cs:line 65
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 106
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128988195438153000" Severity="StatusError" Date="30/09/2009 22:27:09">
+    <Exception>
+      <Source>App_Code.pkxzcp_4</Source>
+      <Message>Invalid parameter</Message>
+      <StackTrace>   at General.RedirectSessionInvalidExceptions(FacebookException facebookException) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\App_Code\General.cs:line 65
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 106
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-4-128989665550589973" Severity="StatusError" Date="02/10/2009 15:22:20">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 32
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-7-128989787420199973" Severity="StatusError" Date="02/10/2009 19:19:23">
+    <Exception>
+      <Source>System.Web</Source>
+      <Message>Control 'ctl00_chkShowHelpOnStartUp' of type 'CheckBox' must be placed inside a form tag with runat=server.</Message>
+      <StackTrace>   at System.Web.UI.Page.VerifyRenderingInServerForm(Control control)
+   at System.Web.UI.WebControls.CheckBox.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Page.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-2-128992259604190859" Severity="StatusError" Date="05/10/2009 16:37:22">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 33
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-128992959289940000" Severity="StatusError" Date="06/10/2009 10:47:38">
+    <Exception>
+      <Source>App_Web_di7jd48y</Source>
+      <Message>Object reference not set to an instance of an object.</Message>
+      <StackTrace>   at PhotoFacer.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFader.master.cs:line 28
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-129017423490642801" Severity="StatusError" Date="03/11/2009 17:19:44">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Object cannot be cast from DBNull to other types.</Message>
+      <StackTrace>   at System.DBNull.System.IConvertible.ToInt64(IFormatProvider provider)
+   at System.Convert.ToInt64(Object value)
+   at PhotoTaggerOM.PhotoTag.PopulateItems(String storedProcedure, List`1 parameters) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTag.cs:line 330
+   at PhotoTaggerOM.PhotoTag.UsersPhotoTags(Int64 userID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTag.cs:line 320
+   at PhotoTaggerOM.FacebookPhoto.FotoFadeTaggedPhotosOfUser(Int64 userID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 149
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 34
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-129017423490642801" Severity="StatusError" Date="03/11/2009 17:33:53">
+    <Exception>
+      <Source>.Net SqlClient Data Provider</Source>
+      <Message>Procedure or function apsp_SavePhotoTag has too many arguments specified.</Message>
+      <StackTrace>   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at DataServer.SQLDataServer.ExecuteSPReturnGuid(String storedProcedure, String connectionString, List`1 parameters) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\DataServer\DataServer\SQLDataServer.cs:line 320
+   at PhotoTaggerOM.PhotoTag.ApplyEdit() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTag.cs:line 265
+   at PhotoTaggerOM.PhotoTag.CreateBackgroundImage() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTag.cs:line 110
+   at PhotoTaggerOM.PhotoTag..ctor(Int64 facebookTagUserID, String tag, Int64 facebookPhotoID, String polygonCoordinates) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTag.cs:line 57
+   at PhotoFaderTagger.btnTag_Click(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 217
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-129041589750456129" Severity="StatusError" Date="01/12/2009 16:42:32">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookUser.UserByID(Int64 id) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 132
+   at PhotoTaggerOM.PhotoTag.get_TaggedUser() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTag.cs:line 206
+   at PhotoTaggerOM.PhotoTag.get_DisplayName() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTag.cs:line 197
+   at PhotoFaderTagger.AddTagsToPage(List`1 photoTags, Boolean addRemoveLinks) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 105
+   at PhotoFaderTagger.AddTagToPage(PhotoTag photoTag) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 94
+   at PhotoFaderTagger.btnTag_Click(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 222
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-129041589750456129" Severity="StatusError" Date="01/12/2009 16:42:48">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookUser.UserByID(Int64 id) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 132
+   at PhotoTaggerOM.PhotoTag.get_TaggedUser() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTag.cs:line 206
+   at PhotoTaggerOM.PhotoTag.get_DisplayName() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTag.cs:line 197
+   at PhotoFaderTagger.AddTagsToPage(List`1 photoTags, Boolean addRemoveLinks) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 105
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 72
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-129041589750456129" Severity="StatusError" Date="01/12/2009 16:43:34">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookUser.UserByID(Int64 id) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 132
+   at PhotoTaggerOM.PhotoTag.get_TaggedUser() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTag.cs:line 206
+   at PhotoTaggerOM.PhotoTag.get_DisplayName() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTag.cs:line 197
+   at PhotoFaderTagger.AddTagsToPage(List`1 photoTags, Boolean addRemoveLinks) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 105
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 72
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-129041589750456129" Severity="StatusError" Date="01/12/2009 16:43:58">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 33
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-129041589750456129" Severity="StatusError" Date="01/12/2009 16:46:06">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookUser.UserByID(Int64 id) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 132
+   at PhotoTaggerOM.PhotoTag.get_TaggedUser() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTag.cs:line 206
+   at PhotoTaggerOM.PhotoTag.get_DisplayName() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTag.cs:line 197
+   at PhotoFaderTagger.AddTagsToPage(List`1 photoTags, Boolean addRemoveLinks) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 105
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 72
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-129041589750456129" Severity="StatusError" Date="01/12/2009 16:49:13">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>An item with the same key has already been added.</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at PhotoTaggerOM.StoryPublisher.get_TemplateData() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\StoryPublisher.cs:line 100
+   at PhotoFaderTagger.btnDoneTagging_Click(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 287
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-129041589750456129" Severity="StatusError" Date="01/12/2009 16:50:09">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>An item with the same key has already been added.</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at PhotoTaggerOM.StoryPublisher.get_TemplateData() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\StoryPublisher.cs:line 100
+   at PhotoFaderTagger.btnDoneTagging_Click(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 287
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-129041589750456129" Severity="StatusError" Date="01/12/2009 19:11:37">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 34
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-129042229143223751" Severity="StatusError" Date="02/12/2009 10:26:07">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 34
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-129042229143223751" Severity="StatusError" Date="02/12/2009 10:32:16">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 34
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-129042229143223751" Severity="StatusError" Date="02/12/2009 11:24:51">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 34
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-129042229143223751" Severity="StatusError" Date="02/12/2009 11:29:54">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 34
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-2-129042440214973751" Severity="StatusError" Date="02/12/2009 16:32:30">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 34
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-2-129042440214973751" Severity="StatusError" Date="02/12/2009 16:38:43">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 34
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-2-129042440214973751" Severity="StatusError" Date="02/12/2009 16:49:38">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 35
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-2-129042440214973751" Severity="StatusError" Date="02/12/2009 16:50:00">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 35
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-2-129042440214973751" Severity="StatusError" Date="02/12/2009 19:23:05">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 35
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-2-129042440214973751" Severity="StatusError" Date="02/12/2009 19:27:19">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 35
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-129043086251698641" Severity="StatusError" Date="03/12/2009 10:47:38">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 36
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-129091533447501878" Severity="StatusError" Date="28/01/2010 11:59:13">
+    <Exception>
+      <Source>System</Source>
+      <Message>The operation has timed out</Message>
+      <StackTrace>   at System.Net.HttpWebRequest.GetResponse()
+   at facebook.API.postRequest(String requestUrl, String postString)
+   at facebook.API.SendRequest(IDictionary`2 parameterDictionary, Boolean useSession)
+   at facebook.fql.query(String query)
+   at PhotoTaggerOM.FacebookPhoto.PopulateObjects(String whereClause) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 172
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoTaggerOM.PhotoTag.get_ParentPhoto() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTag.cs:line 221
+   at PhotoTaggerOM.PhotoTag.get_PhotoIsLoggedOnUsers() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTag.cs:line 231
+   at PhotoFaderTagger.AddTagsToPage(List`1 photoTags, Boolean addRemoveLinks) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 148
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 75
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-2-129091543667721878" Severity="StatusError" Date="28/01/2010 12:14:25">
+    <Exception>
+      <Source>PhotoTaggerOM</Source>
+      <Message>There was an error trying to access Facebook data.</Message>
+      <StackTrace>   at PhotoTaggerOM.PhotoTaggerFBService.ExecuteFQLReturnXElementData(String fql) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTaggerFBService.cs:line 91
+   at PhotoTaggerOM.FacebookPhoto.PopulateObjects(String whereClause) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 176
+   at PhotoTaggerOM.FacebookPhoto.FotoFadeTaggedPhotosOfUser(Int64 userID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 160
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 34
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-3-129091632300431878" Severity="StatusError" Date="28/01/2010 14:40:58">
+    <Exception>
+      <Source>PhotoTaggerOM</Source>
+      <Message>There was an error trying to access Facebook data.</Message>
+      <StackTrace>   at PhotoTaggerOM.PhotoTaggerFBService.ExecuteFQLReturnXElementData(String fql) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTaggerFBService.cs:line 91
+   at PhotoTaggerOM.FacebookPhoto.PopulateObjects(String whereClause) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 176
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoTaggerOM.FacebookPhoto.FotoFadeTaggedPhotosOfUser(Int64 userID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 156
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 34
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-3-129091632300431878" Severity="StatusError" Date="28/01/2010 14:42:02">
+    <Exception>
+      <Source>PhotoTaggerOM</Source>
+      <Message>There was an error trying to access Facebook data.</Message>
+      <StackTrace>   at PhotoTaggerOM.PhotoTaggerFBService.ExecuteFQLReturnXElementData(String fql) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTaggerFBService.cs:line 91
+   at PhotoTaggerOM.FacebookPhoto.PopulateObjects(String whereClause) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 176
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoTaggerOM.FacebookPhoto.FotoFadeTaggedPhotosOfUser(Int64 userID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 156
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 34
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-3-129091632300431878" Severity="StatusError" Date="28/01/2010 14:44:05">
+    <Exception>
+      <Source>PhotoTaggerOM</Source>
+      <Message>There was an error trying to access Facebook data.</Message>
+      <StackTrace>   at PhotoTaggerOM.PhotoTaggerFBService.ExecuteFQLReturnXElementData(String fql) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTaggerFBService.cs:line 91
+   at PhotoTaggerOM.FacebookPhoto.PopulateObjects(String whereClause) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 176
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoTaggerOM.FacebookPhoto.FotoFadeTaggedPhotosOfUser(Int64 userID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 156
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 34
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-3-129091632300431878" Severity="StatusError" Date="28/01/2010 14:44:16">
+    <Exception>
+      <Source>PhotoTaggerOM</Source>
+      <Message>There was an error trying to access Facebook data.</Message>
+      <StackTrace>   at PhotoTaggerOM.PhotoTaggerFBService.ExecuteFQLReturnXElementData(String fql) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTaggerFBService.cs:line 91
+   at PhotoTaggerOM.FacebookPhoto.PopulateObjects(String whereClause) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 176
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoTaggerOM.FacebookPhoto.FotoFadeTaggedPhotosOfUser(Int64 userID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 156
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 34
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-4-129091635604861878" Severity="StatusError" Date="28/01/2010 14:48:33">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Exception has been thrown by the target of an invocation.</Message>
+      <StackTrace>   at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct&amp; sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Web.UI.WebControls.ObjectDataSourceView.InvokeMethod(ObjectDataSourceMethod method, Boolean disposeInstance, Object&amp; instance)
+   at System.Web.UI.WebControls.ObjectDataSourceView.ExecuteSelect(DataSourceSelectArguments arguments)
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.BaseDataBoundControl.EnsureDataBound()
+   at System.Web.UI.WebControls.BaseDataBoundControl.OnPreRender(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+      <InnerException>
+        <Source>System</Source>
+        <Message>The underlying connection was closed: A connection that was expected to be kept alive was closed by the server.</Message>
+        <StackTrace>   at System.Net.HttpWebRequest.GetResponse()
+   at facebook.API.postRequest(String requestUrl, String postString)
+   at facebook.API.SendRequest(IDictionary`2 parameterDictionary, Boolean useSession)
+   at facebook.API.SendRequest(IDictionary`2 parameterDictionary)
+   at facebook.friends.get(Int64 flid)
+   at facebook.friends.get()
+   at PhotoTaggerOM.FacebookUser.LoggedInUsersFriendsAsIDsList() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 159
+   at PhotoTaggerOM.FacebookUser.LoggedInUsersFriends() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 127</StackTrace>
+        <InnerException>
+          <Source>System</Source>
+          <Message>Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.</Message>
+          <StackTrace>   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.Connection.SyncRead(HttpWebRequest request, Boolean userRetrievedStream, Boolean probeRead)</StackTrace>
+          <InnerException>
+            <Source>System</Source>
+            <Message>An existing connection was forcibly closed by the remote host</Message>
+            <StackTrace>   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)</StackTrace>
+          </InnerException>
+        </InnerException>
+      </InnerException>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-4-129091635604861878" Severity="StatusError" Date="28/01/2010 15:24:08">
+    <Exception>
+      <Source>PhotoTaggerOM</Source>
+      <Message>There was an error trying to access Facebook data.</Message>
+      <StackTrace>   at PhotoTaggerOM.PhotoTaggerFBService.ExecuteFQLReturnXElementData(String fql) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTaggerFBService.cs:line 91
+   at PhotoTaggerOM.FacebookPhoto.PopulateObjects(String whereClause) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 176
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoTaggerOM.PhotoTag.get_ParentPhoto() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTag.cs:line 221
+   at PhotoTaggerOM.FacebookPhoto.FotoFadeTaggedPhotosOfUser(Int64 userID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 156
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 34
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-7-129091726441871878" Severity="StatusError" Date="28/01/2010 17:31:16">
+    <Exception>
+      <Source>PhotoTaggerOM</Source>
+      <Message>There was an error trying to access Facebook data.</Message>
+      <StackTrace>   at PhotoTaggerOM.PhotoTaggerFBService.ExecuteFQLReturnXElementData(String fql) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTaggerFBService.cs:line 89
+   at PhotoTaggerOM.FacebookAlbum.PopulateObjects(String whereClause) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 170
+   at PhotoTaggerOM.FacebookAlbum.AlbumByID(Int64 albumID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 143
+   at PhotoTaggerOM.FacebookPhoto.get_Album() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 90
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 52
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-7-129091726441871878" Severity="StatusError" Date="28/01/2010 17:31:26">
+    <Exception>
+      <Source>PhotoTaggerOM</Source>
+      <Message>There was an error trying to access Facebook data.</Message>
+      <StackTrace>   at PhotoTaggerOM.PhotoTaggerFBService.ExecuteFQLReturnXElementData(String fql) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTaggerFBService.cs:line 89
+   at PhotoTaggerOM.FacebookPhoto.PopulateObjects(String whereClause) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 176
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 36
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-7-129091726441871878" Severity="StatusError" Date="28/01/2010 17:31:51">
+    <Exception>
+      <Source>PhotoTaggerOM</Source>
+      <Message>There was an error trying to access Facebook data.</Message>
+      <StackTrace>   at PhotoTaggerOM.PhotoTaggerFBService.ExecuteFQLReturnXElementData(String fql) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTaggerFBService.cs:line 89
+   at PhotoTaggerOM.FacebookAlbum.PopulateObjects(String whereClause) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 170
+   at PhotoTaggerOM.FacebookAlbum.AlbumByID(Int64 albumID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 143
+   at AlbumPage.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\AlbumPage.aspx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-7-129091726441871878" Severity="StatusError" Date="28/01/2010 17:32:11">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 36
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-7-129091726441871878" Severity="StatusError" Date="28/01/2010 17:32:45">
+    <Exception>
+      <Source>PhotoTaggerOM</Source>
+      <Message>There was an error trying to access Facebook data.</Message>
+      <StackTrace>   at PhotoTaggerOM.PhotoTaggerFBService.ExecuteFQLReturnXElementData(String fql) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTaggerFBService.cs:line 89
+   at PhotoTaggerOM.FacebookUser.PopulateObjects(String whereClause) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 208
+   at PhotoTaggerOM.FacebookUser.UserByID(Int64 id) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 146
+   at PhotoTaggerOM.FacebookAlbum.get_Owner() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 133
+   at AlbumPage.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\AlbumPage.aspx.cs:line 29
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-7-129091726441871878" Severity="StatusError" Date="28/01/2010 17:36:38">
+    <Exception>
+      <Source>System</Source>
+      <Message>The operation has timed out</Message>
+      <StackTrace>   at PhotoTaggerOM.PhotoTaggerFBService.ExecuteFQLReturnXElementData(String fql) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTaggerFBService.cs:line 84
+   at PhotoTaggerOM.FacebookPhoto.PopulateObjects(String whereClause) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 176
+   at PhotoTaggerOM.FacebookPhoto.PhotosInAlbums(String albumIDs) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 141
+   at PhotoTaggerOM.FacebookAlbum.PopulateObjects(String whereClause) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 197
+   at PhotoTaggerOM.FacebookAlbum.AlbumByID(Int64 albumID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 143
+   at PhotoTaggerOM.FacebookPhoto.get_Album() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 90
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 52
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-7-129091726441871878" Severity="StatusError" Date="28/01/2010 17:36:47">
+    <Exception>
+      <Source>PhotoTaggerOM</Source>
+      <Message>There was an error trying to access Facebook data.</Message>
+      <StackTrace>   at PhotoTaggerOM.PhotoTaggerFBService.ExecuteFQLReturnXElementData(String fql) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTaggerFBService.cs:line 89
+   at PhotoTaggerOM.FacebookPhoto.PopulateObjects(String whereClause) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 176
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 131
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 36
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-7-129091726441871878" Severity="StatusError" Date="28/01/2010 17:50:20">
+    <Exception>
+      <Source>PhotoTaggerOM</Source>
+      <Message>There was an error trying to access Facebook data.</Message>
+      <StackTrace>   at PhotoTaggerOM.PhotoTaggerFBService.ExecuteFQLReturnXElementData(String fql) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTaggerFBService.cs:line 89
+   at PhotoTaggerOM.FacebookPhoto.PopulateObjects(String whereClause) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 176
+   at PhotoTaggerOM.FacebookPhoto.PhotosInAlbums(String albumIDs) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 141
+   at PhotoTaggerOM.FacebookAlbum.PopulateObjects(String whereClause) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 197
+   at PhotoTaggerOM.FacebookAlbum.AlbumByID(Int64 albumID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 143
+   at PhotoTaggerOM.FacebookPhoto.get_Album() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 90
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 52
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-8-129091792643801878" Severity="StatusError" Date="28/01/2010 20:33:39">
+    <Exception>
+      <Source>System</Source>
+      <Message>The underlying connection was closed: A connection that was expected to be kept alive was closed by the server.</Message>
+      <StackTrace>   at System.Net.HttpWebRequest.GetResponse()
+   at facebook.API.postRequest(String requestUrl, String postString)
+   at facebook.API.SendRequest(IDictionary`2 parameterDictionary, Boolean useSession)
+   at facebook.API.SendRequest(IDictionary`2 parameterDictionary)
+   at facebook.friends.get(Int64 flid)
+   at facebook.friends.get()
+   at PhotoTaggerOM.FacebookUser.LoggedInUsersFriendsAsIDsList() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 173
+   at PhotoTaggerOM.FacebookUser.get_Friends() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 119
+   at PhotoFacer.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFader.master.cs:line 29
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+      <InnerException>
+        <Source>System</Source>
+        <Message>Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.</Message>
+        <StackTrace>   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.Connection.SyncRead(HttpWebRequest request, Boolean userRetrievedStream, Boolean probeRead)</StackTrace>
+        <InnerException>
+          <Source>System</Source>
+          <Message>An existing connection was forcibly closed by the remote host</Message>
+          <StackTrace>   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)</StackTrace>
+        </InnerException>
+      </InnerException>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-9-129091845011061878" Severity="StatusError" Date="28/01/2010 20:35:39">
+    <Exception>
+      <Source>App_Code.q8hfr92o</Source>
+      <Message>Permissions error</Message>
+      <StackTrace>   at General.RedirectSessionInvalidExceptions(FacebookException facebookException) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\App_Code\General.cs:line 65
+   at PhotoFacer.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFader.master.cs:line 65
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-9-129091845011061878" Severity="StatusError" Date="28/01/2010 20:36:27">
+    <Exception>
+      <Source>App_Code.q8hfr92o</Source>
+      <Message>Permissions error</Message>
+      <StackTrace>   at General.RedirectSessionInvalidExceptions(FacebookException facebookException) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\App_Code\General.cs:line 65
+   at PhotoFacer.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFader.master.cs:line 65
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-9-129091845011061878" Severity="StatusError" Date="28/01/2010 20:37:19">
+    <Exception>
+      <Source>PhotoTaggerOM</Source>
+      <Message>There was an error trying to access Facebook data.</Message>
+      <StackTrace>   at PhotoTaggerOM.PhotoTaggerFBService.ExecuteFQLReturnXElementData(String fql) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTaggerFBService.cs:line 89
+   at PhotoTaggerOM.FacebookAlbum.PopulateObjects(String whereClause) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 179
+   at PhotoTaggerOM.FacebookAlbum.UsersAlbums(Int64 userID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 164
+   at PhotoTaggerOM.FacebookUser.get_Albums() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 107
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 33
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-9-129091845011061878" Severity="StatusError" Date="28/01/2010 20:38:15">
+    <Exception>
+      <Source>App_Code.q8hfr92o</Source>
+      <Message>Permissions error</Message>
+      <StackTrace>   at General.RedirectSessionInvalidExceptions(FacebookException facebookException) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\App_Code\General.cs:line 65
+   at PhotoFacer.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFader.master.cs:line 65
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-9-129091845011061878" Severity="StatusError" Date="28/01/2010 20:41:25">
+    <Exception>
+      <Source>System</Source>
+      <Message>The underlying connection was closed: A connection that was expected to be kept alive was closed by the server.</Message>
+      <StackTrace>   at System.Net.HttpWebRequest.GetResponse()
+   at facebook.API.postRequest(String requestUrl, String postString)
+   at facebook.API.SendRequest(IDictionary`2 parameterDictionary, Boolean useSession)
+   at facebook.API.SendRequest(IDictionary`2 parameterDictionary)
+   at facebook.friends.get(Int64 flid)
+   at PhotoTaggerOM.FacebookUser.FriendsAsIDsList() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 188
+   at PhotoTaggerOM.FacebookUser.get_Friends() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 119
+   at PhotoFacer.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFader.master.cs:line 29
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+      <InnerException>
+        <Source>System</Source>
+        <Message>Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.</Message>
+        <StackTrace>   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.Connection.SyncRead(HttpWebRequest request, Boolean userRetrievedStream, Boolean probeRead)</StackTrace>
+        <InnerException>
+          <Source>System</Source>
+          <Message>An existing connection was forcibly closed by the remote host</Message>
+          <StackTrace>   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)</StackTrace>
+        </InnerException>
+      </InnerException>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-9-129091845011061878" Severity="StatusError" Date="28/01/2010 20:48:42">
+    <Exception>
+      <Source>PhotoTaggerOM</Source>
+      <Message>There was an error trying to access Facebook data.</Message>
+      <StackTrace>   at PhotoTaggerOM.PhotoTaggerFBService.ExecuteFQLReturnXElementData(String fql) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTaggerFBService.cs:line 89
+   at PhotoTaggerOM.FacebookPhoto.PopulateObjects(String whereClause) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 185
+   at PhotoTaggerOM.FacebookPhoto.FotoFadeTaggedPhotosOfUser(Int64 userID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 169
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 34
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-10-129091853796141878" Severity="StatusError" Date="28/01/2010 20:51:00">
+    <Exception>
+      <Source>System</Source>
+      <Message>The underlying connection was closed: A connection that was expected to be kept alive was closed by the server.</Message>
+      <StackTrace>   at System.Net.HttpWebRequest.GetResponse()
+   at facebook.API.postRequest(String requestUrl, String postString)
+   at facebook.API.SendRequest(IDictionary`2 parameterDictionary, Boolean useSession)
+   at facebook.API.SendRequest(IDictionary`2 parameterDictionary)
+   at facebook.friends.get(Int64 flid)
+   at facebook.friends.get()
+   at PhotoTaggerOM.FacebookUser.LoggedInUsersFriendsAsIDsList() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 173
+   at PhotoTaggerOM.FacebookUser.get_Friends() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 119
+   at PhotoFacer.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFader.master.cs:line 29
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+      <InnerException>
+        <Source>System</Source>
+        <Message>Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.</Message>
+        <StackTrace>   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.Connection.SyncRead(HttpWebRequest request, Boolean userRetrievedStream, Boolean probeRead)</StackTrace>
+        <InnerException>
+          <Source>System</Source>
+          <Message>An existing connection was forcibly closed by the remote host</Message>
+          <StackTrace>   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)</StackTrace>
+        </InnerException>
+      </InnerException>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-11-129091916699011878" Severity="StatusError" Date="28/01/2010 22:35:17">
+    <Exception>
+      <Source>System</Source>
+      <Message>The underlying connection was closed: A connection that was expected to be kept alive was closed by the server.</Message>
+      <StackTrace>   at System.Net.HttpWebRequest.GetResponse()
+   at facebook.API.postRequest(String requestUrl, String postString)
+   at facebook.API.SendRequest(IDictionary`2 parameterDictionary, Boolean useSession)
+   at facebook.API.SendRequest(IDictionary`2 parameterDictionary)
+   at facebook.friends.get(Int64 flid)
+   at facebook.friends.get()
+   at PhotoTaggerOM.FacebookUser.LoggedInUsersFriendsAsIDsList() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 173
+   at PhotoTaggerOM.FacebookUser.get_Friends() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 119
+   at PhotoFacer.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFader.master.cs:line 29
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+      <InnerException>
+        <Source>System</Source>
+        <Message>Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.</Message>
+        <StackTrace>   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.Connection.SyncRead(HttpWebRequest request, Boolean userRetrievedStream, Boolean probeRead)</StackTrace>
+        <InnerException>
+          <Source>System</Source>
+          <Message>An existing connection was forcibly closed by the remote host</Message>
+          <StackTrace>   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)</StackTrace>
+        </InnerException>
+      </InnerException>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-11-129091916699011878" Severity="StatusError" Date="28/01/2010 22:36:08">
+    <Exception>
+      <Source>PhotoTaggerOM</Source>
+      <Message>There was an error trying to access Facebook data.</Message>
+      <StackTrace>   at PhotoTaggerOM.PhotoTaggerFBService.ExecuteFQLReturnXElementData(String fql) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTaggerFBService.cs:line 89
+   at PhotoTaggerOM.FacebookAlbum.PopulateObjects(String whereClause) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 179
+   at PhotoTaggerOM.FacebookAlbum.UsersAlbums(Int64 userID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 164
+   at PhotoTaggerOM.FacebookUser.get_Albums() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 107
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 33
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-11-129091916699011878" Severity="StatusError" Date="28/01/2010 23:45:01">
+    <Exception>
+      <Source>PhotoTaggerOM</Source>
+      <Message>There was an error trying to access Facebook data.</Message>
+      <StackTrace>   at PhotoTaggerOM.PhotoTaggerFBService.ExecuteFQLReturnXElementData(String fql) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTaggerFBService.cs:line 89
+   at PhotoTaggerOM.FacebookAlbum.PopulateObjects(String whereClause) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 179
+   at PhotoTaggerOM.FacebookAlbum.AlbumByID(Int64 albumID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 147
+   at PhotoTaggerOM.FacebookPhoto.get_Album() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 90
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 52
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-129459088773944888" Severity="StatusError" Date="29/03/2011 22:49:21">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookAlbum.AlbumByID(Int64 albumID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookAlbum.cs:line 147
+   at AlbumPage.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\AlbumPage.aspx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-129459088773944888" Severity="StatusError" Date="29/03/2011 23:07:59">
+    <Exception>
+      <Source>App_Web_sxluvhxr</Source>
+      <Message>Object reference not set to an instance of an object.</Message>
+      <StackTrace>   at PhotoFacer.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\PhotoFader.master.cs:line 43
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="47523d6f-1-129761472233736039" Severity="StatusError" Date="13/03/2012 21:45:48">
+    <Exception>
+      <Source>.Net SqlClient Data Provider</Source>
+      <Message>Cannot open database "AdvancedPhotoTagger" requested by the login. The login failed.
+Login failed for user 'Oxarroll001\Vincent'.</Message>
+      <StackTrace>   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DataServer.SQLDataServer.ExecuteSPReturnDataReader(String storedProcedure, String connectionString, List`1 parameters) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\DataServer\DataServer\SQLDataServer.cs:line 135
+   at PhotoTaggerOM.FacebookUser.PopulateFotofaderDatabaseValues() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 239
+   at PhotoTaggerOM.FacebookUser.get_AskedPublishPermission() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 58
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2010\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="47523d6f-2-129761493666376039" Severity="StatusError" Date="13/03/2012 22:00:30">
+    <Exception>
+      <Source>PhotoTaggerOM</Source>
+      <Message>The type initializer for 'PhotoTaggerOM.Constants' threw an exception.</Message>
+      <StackTrace>   at PhotoTaggerOM.PhotoTaggerFBService.get_PhotoTagFaceBookService() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTaggerFBService.cs:line 26
+   at PhotoTaggerOM.FacebookUser.LoggedInUser() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 158
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2010\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 22
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+      <InnerException>
+        <Source>PhotoTaggerOM</Source>
+        <Message>Object reference not set to an instance of an object.</Message>
+        <StackTrace>   at PhotoTaggerOM.Constants..cctor() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\General.cs:line 14</StackTrace>
+      </InnerException>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="47523d6f-1-129761499051396039" Severity="StatusError" Date="13/03/2012 22:05:33">
+    <Exception>
+      <Source>PhotoTaggerOM</Source>
+      <Message>The type initializer for 'PhotoTaggerOM.Constants' threw an exception.</Message>
+      <StackTrace>   at PhotoTaggerOM.PhotoTaggerFBService.get_PhotoTagFaceBookService() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTaggerFBService.cs:line 26
+   at PhotoTaggerOM.FacebookUser.LoggedInUser() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 158
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2010\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 22
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+      <InnerException>
+        <Source>PhotoTaggerOM</Source>
+        <Message>Object reference not set to an instance of an object.</Message>
+        <StackTrace>   at PhotoTaggerOM.Constants..cctor() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\General.cs:line 14</StackTrace>
+      </InnerException>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="47523d6f-2-129761500643216039" Severity="StatusError" Date="13/03/2012 22:07:48">
+    <Exception>
+      <Source>PhotoTaggerOM</Source>
+      <Message>The type initializer for 'PhotoTaggerOM.Constants' threw an exception.</Message>
+      <StackTrace>   at PhotoTaggerOM.PhotoTaggerFBService.get_PhotoTagFaceBookService() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTaggerFBService.cs:line 26
+   at PhotoTaggerOM.FacebookUser.LoggedInUser() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 158
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2010\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 22
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+      <InnerException>
+        <Source>PhotoTaggerOM</Source>
+        <Message>Object reference not set to an instance of an object.</Message>
+        <StackTrace>   at PhotoTaggerOM.Constants..cctor() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\General.cs:line 14</StackTrace>
+      </InnerException>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="47523d6f-3-129761501175026039" Severity="StatusError" Date="13/03/2012 22:08:42">
+    <Exception>
+      <Source>.Net SqlClient Data Provider</Source>
+      <Message>Could not find stored procedure 'apsp_GetUsersApplicationData'.</Message>
+      <StackTrace>   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at DataServer.SQLDataServer.ExecuteSPReturnDataReader(String storedProcedure, String connectionString, List`1 parameters) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\DataServer\DataServer\SQLDataServer.cs:line 137
+   at PhotoTaggerOM.FacebookUser.PopulateFotofaderDatabaseValues() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 237
+   at PhotoTaggerOM.FacebookUser.get_AskedPublishPermission() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 58
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2010\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="47523d6f-4-129761535769096039" Severity="StatusError" Date="13/03/2012 23:09:49">
+    <Exception>
+      <Source>App_Web_habqapsu</Source>
+      <Message>Object reference not set to an instance of an object.</Message>
+      <StackTrace>   at PhotoFacer.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2010\WebSites\AdvancedPhotoTagger\PhotoFader.master.cs:line 43
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="47523d6f-1-129885694288023842" Severity="StatusError" Date="04/08/2012 17:06:26">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookUser.UserByID(Int64 id) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 146
+   at PhotoTaggerOM.PhotoTag.get_TaggedUser() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTag.cs:line 206
+   at PhotoTaggerOM.PhotoTag.get_DisplayName() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\PhotoTag.cs:line 197
+   at PhotoFaderTagger.AddTagsToPage(List`1 photoTags, Boolean addRemoveLinks) in c:\Users\Vincent\Documents\Visual Studio 2010\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 119
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2010\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 75
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="47523d6f-1-129885694288023842" Severity="StatusError" Date="04/08/2012 17:20:46">
+    <Exception>
+      <Source>mscorlib</Source>
+      <Message>Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+      <StackTrace>   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at PhotoTaggerOM.FacebookPhoto.PhotoByID(Int64 photoID) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookPhoto.cs:line 135
+   at PhotoFaderTagger.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2010\WebSites\AdvancedPhotoTagger\PhotoFaderTagger.aspx.cs:line 36
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+  <LogEntry ApplicationName="e55183e8-1-130311799057054953" Severity="StatusError" Date="10/12/2013 20:14:06">
+    <Exception>
+      <Source>.Net SqlClient Data Provider</Source>
+      <Message>A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)</Message>
+      <StackTrace>   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DataServer.SQLDataServer.ExecuteSPReturnDataReader(String storedProcedure, String connectionString, List`1 parameters) in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\DataServer\DataServer\SQLDataServer.cs:line 135
+   at PhotoTaggerOM.FacebookUser.PopulateFotofaderDatabaseValues() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 239
+   at PhotoTaggerOM.FacebookUser.get_AskedPublishPermission() in C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM\FacebookUser.cs:line 58
+   at Albums.Page_Load(Object sender, EventArgs e) in c:\Users\Vincent\Documents\Visual Studio 2008\WebSites\AdvancedPhotoTagger\Albums.aspx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</StackTrace>
+    </Exception>
+  </LogEntry>
+</ApplicationLog>

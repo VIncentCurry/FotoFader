@@ -1,0 +1,15 @@
+F:\Documents and Settings\Vinny\Local Settings\Application Data\Temporary Projects\DataServer\bin\Release\DataServer.dll
+F:\Documents and Settings\Vinny\Local Settings\Application Data\Temporary Projects\DataServer\bin\Release\DataServer.pdb
+F:\Documents and Settings\Vinny\Local Settings\Application Data\Temporary Projects\DataServer\obj\Release\ResolveAssemblyReference.cache
+F:\Documents and Settings\Vinny\Local Settings\Application Data\Temporary Projects\DataServer\obj\Release\DataServer.dll
+F:\Documents and Settings\Vinny\Local Settings\Application Data\Temporary Projects\DataServer\obj\Release\DataServer.pdb
+F:\Documents and Settings\Vinny\My Documents\Visual Studio 2008\Projects\DataServer\DataServer\bin\Release\DataServer.dll
+F:\Documents and Settings\Vinny\My Documents\Visual Studio 2008\Projects\DataServer\DataServer\bin\Release\DataServer.pdb
+F:\Documents and Settings\Vinny\My Documents\Visual Studio 2008\Projects\DataServer\DataServer\obj\Release\ResolveAssemblyReference.cache
+F:\Documents and Settings\Vinny\My Documents\Visual Studio 2008\Projects\DataServer\DataServer\obj\Release\DataServer.dll
+F:\Documents and Settings\Vinny\My Documents\Visual Studio 2008\Projects\DataServer\DataServer\obj\Release\DataServer.pdb
+C:\Users\Vincent\Documents\Visual Studio 2008\Projects\DataServer\DataServer\bin\Release\DataServer.dll
+C:\Users\Vincent\Documents\Visual Studio 2008\Projects\DataServer\DataServer\bin\Release\DataServer.pdb
+C:\Users\Vincent\Documents\Visual Studio 2008\Projects\DataServer\DataServer\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Vincent\Documents\Visual Studio 2008\Projects\DataServer\DataServer\obj\Release\DataServer.dll
+C:\Users\Vincent\Documents\Visual Studio 2008\Projects\DataServer\DataServer\obj\Release\DataServer.pdb

@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:fb="http://www.facebook.com/2008/fbml">
+<head><title>Popup test</title>
+  <script type="text/javascript"
+    src="http://static.ak.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php">
+  </script>
+</head>
+<body>
+  <p> Hello </p>
+  <script type="text/javascript">
+    function mycallback() {
+      alert("Callback");
+    };
+    FB_RequireFeatures(["XFBML"], function(){
+      FB.Facebook.init(0x93e9e4d1c8ba6fd5e7090c17d95d92a9, "xd_receiver.htm", null);
+      FB.ensureInit(function () {
+        alert('Lib Ready');
+        FB.Connect.showFeedDialog(96980244921,{},[],"blah",null,
+          FB.RequireConnect.doNotRequire, mycallback);
+      });
+    });
+  </script>
+</body>
+</html>

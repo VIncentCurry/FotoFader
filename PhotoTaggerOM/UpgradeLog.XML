@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="PhotoTaggerOM">
+</Property><Property Name="Solution File" Value="C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM.sln">
+</Property><Property Name="User Options File" Value="C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\PhotoTaggerOM.suo">
+</Property><Property Name="Date" Value="10 December 2013">
+</Property><Property Name="Time" Value="20:25">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="PhotoTaggerOM.sln" Description="File successfully backed up as C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\Backup\PhotoTaggerOM.sln">
+</Event><Event ErrorLevel="0" Project="" Source="PhotoTaggerOM.suo" Description="File successfully backed up as C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\Backup\PhotoTaggerOM.suo">
+</Event><Event ErrorLevel="0" Project="PhotoTaggerOM" Source="PhotoTaggerOM\PhotoTaggerOM.csproj" Description="Project file successfully backed up as C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\Backup\PhotoTaggerOM\PhotoTaggerOM.csproj">
+</Event><Event ErrorLevel="0" Project="PhotoTaggerOM" Source="PhotoTaggerOM\PhotoTaggerOM.csproj.user" Description="Project user file successfully backed up as C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\Backup\PhotoTaggerOM\PhotoTaggerOM.csproj.user">
+</Event><Event ErrorLevel="0" Project="PhotoTaggerOM" Source="PhotoTaggerOM\Exceptions.cs" Description="File successfully backed up as C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\Backup\PhotoTaggerOM\Exceptions.cs">
+</Event><Event ErrorLevel="0" Project="PhotoTaggerOM" Source="PhotoTaggerOM\FacebookAlbum.cs" Description="File successfully backed up as C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\Backup\PhotoTaggerOM\FacebookAlbum.cs">
+</Event><Event ErrorLevel="0" Project="PhotoTaggerOM" Source="PhotoTaggerOM\FacebookUser.cs" Description="File successfully backed up as C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\Backup\PhotoTaggerOM\FacebookUser.cs">
+</Event><Event ErrorLevel="0" Project="PhotoTaggerOM" Source="PhotoTaggerOM\FacebookPhoto.cs" Description="File successfully backed up as C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\Backup\PhotoTaggerOM\FacebookPhoto.cs">
+</Event><Event ErrorLevel="0" Project="PhotoTaggerOM" Source="PhotoTaggerOM\General.cs" Description="File successfully backed up as C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\Backup\PhotoTaggerOM\General.cs">
+</Event><Event ErrorLevel="0" Project="PhotoTaggerOM" Source="PhotoTaggerOM\Line.cs" Description="File successfully backed up as C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\Backup\PhotoTaggerOM\Line.cs">
+</Event><Event ErrorLevel="0" Project="PhotoTaggerOM" Source="PhotoTaggerOM\PageVisit.cs" Description="File successfully backed up as C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\Backup\PhotoTaggerOM\PageVisit.cs">
+</Event><Event ErrorLevel="0" Project="PhotoTaggerOM" Source="PhotoTaggerOM\PhotoTag.cs" Description="File successfully backed up as C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\Backup\PhotoTaggerOM\PhotoTag.cs">
+</Event><Event ErrorLevel="0" Project="PhotoTaggerOM" Source="PhotoTaggerOM\PhotoTaggerFBService.cs" Description="File successfully backed up as C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\Backup\PhotoTaggerOM\PhotoTaggerFBService.cs">
+</Event><Event ErrorLevel="0" Project="PhotoTaggerOM" Source="PhotoTaggerOM\PhotoTagLine.cs" Description="File successfully backed up as C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\Backup\PhotoTaggerOM\PhotoTagLine.cs">
+</Event><Event ErrorLevel="0" Project="PhotoTaggerOM" Source="PhotoTaggerOM\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\Backup\PhotoTaggerOM\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="PhotoTaggerOM" Source="PhotoTaggerOM\StoryPublisher.cs" Description="File successfully backed up as C:\Users\Vincent\Documents\Visual Studio 2008\Projects\PhotoTaggerOM\Backup\PhotoTaggerOM\StoryPublisher.cs">
+</Event><Event ErrorLevel="0" Project="PhotoTaggerOM" Source="PhotoTaggerOM\PhotoTaggerOM.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="PhotoTaggerOM" Source="PhotoTaggerOM\PhotoTaggerOM.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="PhotoTaggerOM.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="PhotoTaggerOM.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="PhotoTaggerOM" Source="PhotoTaggerOM\PhotoTaggerOM.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
